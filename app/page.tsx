@@ -151,6 +151,8 @@ Consultar
 </a>
 
 </div>
+</div>
+
 <div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
 
 <img
