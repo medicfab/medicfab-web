@@ -13,7 +13,7 @@ export default function Home() {
           <nav className="space-x-8 font-medium">
             <a href="#">Inicio</a>
             <a href="#">Productos</a>
-            <a href="#">Nosotros</a>
+            <a href="/nosotros">Nosotros</a>
             <a href="#">Contacto</a>
           </nav>
 
