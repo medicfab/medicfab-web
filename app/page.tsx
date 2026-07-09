@@ -200,6 +200,108 @@ Comprar por WhatsApp
 </div>
 
 </section>
+
+{/* FOOTER */}
+
+<footer className="bg-slate-900 text-white mt-20">
+
+  <div className="max-w-7xl mx-auto px-8 py-14">
+
+    <div className="grid md:grid-cols-4 gap-10">
+
+      <div>
+        <h2 className="text-3xl font-bold text-teal-400">
+          MEDIC FAB
+        </h2>
+
+        <p className="mt-5 text-gray-300 leading-7">
+          Calidad y confianza para profesionales de la salud.
+          Distribuimos productos médicos y odontológicos
+          originales en todo el Perú.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-semibold mb-5">
+          Contacto
+        </h3>
+
+        <p className="text-gray-300">
+          📞 +51 952 260 788
+        </p>
+
+        <p className="text-gray-300 mt-3">
+          📍 Lima, Perú
+        </p>
+
+        <p className="text-gray-300 mt-3">
+          ✉ contacto@medicfab.com
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-semibold mb-5">
+          Horario
+        </h3>
+
+        <p className="text-gray-300">
+          Lunes - Sábado
+        </p>
+
+        <p className="text-gray-300 mt-2">
+          8:00 AM - 7:00 PM
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-semibold mb-5">
+          Enlaces
+        </h3>
+
+        <ul className="space-y-3">
+
+          <li>
+            <a href="/" className="hover:text-teal-400">
+              Inicio
+            </a>
+          </li>
+
+          <li>
+            <a href="/#productos" className="hover:text-teal-400">
+              Productos
+            </a>
+          </li>
+
+          <li>
+            <a href="/nosotros" className="hover:text-teal-400">
+              Nosotros
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://wa.me/51952260788"
+              className="hover:text-teal-400"
+            >
+              WhatsApp
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+    <div className="border-t border-slate-700 mt-12 pt-8 text-center text-gray-400">
+
+      © 2026 MEDIC FAB · Todos los derechos reservados.
+
+    </div>
+
+  </div>
+
+</footer>
+
     </main>
   );
 }
