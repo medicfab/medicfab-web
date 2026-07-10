@@ -191,7 +191,16 @@ Uso profesional.
 href="https://wa.me/51952260788"
 className="inline-block mt-6 bg-teal-600 text-white px-6 py-3 rounded-xl"
 >
+
+
 Comprar por WhatsApp
+</a>
+
+<a
+href="/productos/neurobion-dc-10000"
+className="inline-block mt-3 ml-3 border border-teal-600 text-teal-600 px-6 py-3 rounded-xl hover:bg-teal-600 hover:text-white transition"
+>
+Ver detalles
 </a>
 
 </div>
