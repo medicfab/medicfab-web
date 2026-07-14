@@ -210,12 +210,15 @@ Ver detalles
 
 <div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
 
-      <div className="h-72 flex items-center justify-center bg-white">
+<div className="w-full h-96 flex items-center justify-center bg-white overflow-hidden">
   <img
     src="/doloneurobion.png"
     alt="Dolo Neurobión"
-    className="max-h-64 object-contain transition duration-300 hover:scale-105"
+    className="max-w-full max-h-full object-contain p-6 transition duration-300 hover:scale-105"
   />
+</div>
+
+<div className="p-6">
 </div>
   
 
