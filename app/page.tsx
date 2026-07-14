@@ -73,203 +73,201 @@ export default function Home() {
 
       </section>
 {/* Productos */}
+
 <section
   id="productos"
   className="max-w-7xl mx-auto px-10 py-20"
 >
+  <h2 className="text-4xl font-bold text-center mb-12">
+    Productos Destacados
+  </h2>
 
-<h2 className="text-4xl font-bold text-center mb-12">
-Productos Destacados
-</h2>
+  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
 
-<div className="grid md:grid-cols-2 gap-10">
+    {/* Kerr */}
+    <div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
 
-{/* Kerr */}
-<div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
+      <img
+        src="/kerr.jpg.png"
+        alt="Resina Kerr"
+        className="w-full h-96 object-cover"
+      />
 
-<img
-src="/kerr.jpg.png"
-alt="Resina Kerr"
-className="w-full h-96 object-cover"
-/>
+      <div className="p-6">
 
-<div className="p-6">
+        <h3 className="text-2xl font-bold">
+          Kerr Herculite Precis
+        </h3>
 
-<h3 className="text-2xl font-bold">
-Kerr Herculite Precis
-</h3>
+        <p className="text-gray-600 mt-3">
+          Resina compuesta de excelente estética, alta resistencia y fácil manipulación.
+        </p>
 
-<p className="text-gray-600 mt-3">
-Resina compuesta de excelente estética,
-alta resistencia y fácil manipulación.
-</p>
+        <p className="text-2xl font-bold text-teal-600 mt-5">
+          S/ 90
+        </p>
 
-<p className="text-2xl font-bold text-teal-600 mt-5">
-S/ 90
-</p>
+        <a
+          href="https://wa.me/51952260788"
+          className="inline-block mt-6 bg-teal-600 text-white px-6 py-3 rounded-xl"
+        >
+          Consultar
+        </a>
 
-<a
-href="https://wa.me/51952260788"
-className="inline-block mt-6 bg-teal-600 text-white px-6 py-3 rounded-xl"
->
-Consultar
-</a>
-
-</div>
-</div>
-
-{/* Lidocaina */}
-
-<div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
-
-<img
-src="/lidocaina.jpg.png"
-alt="Lidocaína"
-className="w-full h-96 object-cover"
-/>
-
-<div className="p-6">
-
-<h3 className="text-2xl font-bold">
-Lidocaína New Stetic
-</h3>
-
-<p className="text-gray-600 mt-3">
-Caja con 50 cartuchos.
-Anestésico local con epinefrina 1:80.000.
-</p>
-
-<p className="text-2xl font-bold text-teal-600 mt-5">
-Consultar precio
-</p>
-
-<a
-href="https://wa.me/51952260788"
-className="inline-block mt-6 bg-teal-600 text-white px-6 py-3 rounded-xl"
->
-Consultar
-</a>
-
-</div>
-</div>
-
-<div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
-
-<img
-src="/neurobion10000.png"
-alt="Neurobión DC 10000"
-className="w-full h-96 object-cover"
-/>
-
-<div className="p-6">
-
-<h3 className="text-2xl font-bold">
-Neurobión DC 10000
-</h3>
-
-<p className="text-gray-600 mt-3">
-Producto original.
-Presentación sellada.
-Uso profesional.
-</p>
-
-<div className="mt-5">
-  <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
-    OFERTA
-  </span>
-
-  <p className="text-gray-400 line-through text-lg mt-4">
-    Antes: S/ 100.00
-  </p>
-
-  <p className="text-3xl font-bold text-red-600">
-    Ahora: S/ 85.00
-  </p>
-</div>
-
-<a
-href="https://wa.me/51952260788"
-className="inline-block mt-6 bg-teal-600 text-white px-6 py-3 rounded-xl"
->
-
-
-Comprar por WhatsApp
-</a>
-
-<a
-href="/productos/neurobion-dc-10000"
-className="inline-block mt-3 ml-3 border border-teal-600 text-teal-600 px-6 py-3 rounded-xl hover:bg-teal-600 hover:text-white transition"
->
-Ver detalles
-</a>
-
-</div>
-</div>
-</div>
-{/* Dolo Neurobión */}
-
-<div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
-
-<div className="w-full h-96 flex items-center justify-center bg-white overflow-hidden">
-  <img
-    src="/doloneurobion.png"
-    alt="Dolo Neurobión"
-    className="max-w-full max-h-full object-contain p-6 transition duration-300 hover:scale-105"
-  />
-</div>
-
-<div className="p-6">
-</div>
-  
-
-  <div className="p-6">
-
-    <h3 className="text-2xl font-bold">
-      Dolo Neurobión
-    </h3>
-
-    <p className="text-gray-600 mt-3">
-      Complejo vitamínico con efecto analgésico.
-      Producto original y de uso profesional.
-    </p>
-
-    <div className="mt-5">
-
-      <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
-        OFERTA
-      </span>
-
-      <p className="text-gray-400 line-through text-lg mt-4">
-        Antes: S/ 110.00
-      </p>
-
-      <p className="text-3xl font-bold text-red-600">
-        Ahora: S/ 95.00
-      </p>
+      </div>
 
     </div>
 
-    <a
-      href="https://wa.me/51952260788"
-      className="inline-block mt-6 bg-teal-600 text-white px-6 py-3 rounded-xl"
-    >
-      Comprar por WhatsApp
-    </a>
+    {/* Lidocaína */}
 
-    <a
-      href="/productos/dolo-neurobion"
-      className="inline-block mt-3 ml-3 border border-teal-600 text-teal-600 px-6 py-3 rounded-xl hover:bg-teal-600 hover:text-white transition"
-    >
-      Ver detalles
-    </a>
+    <div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
+
+      <img
+        src="/lidocaina.jpg.png"
+        alt="Lidocaína"
+        className="w-full h-96 object-cover"
+      />
+
+      <div className="p-6">
+
+        <h3 className="text-2xl font-bold">
+          Lidocaína New Stetic
+        </h3>
+
+        <p className="text-gray-600 mt-3">
+          Caja con 50 cartuchos. Anestésico local con epinefrina 1:80.000.
+        </p>
+
+        <p className="text-2xl font-bold text-teal-600 mt-5">
+          Consultar precio
+        </p>
+
+        <a
+          href="https://wa.me/51952260788"
+          className="inline-block mt-6 bg-teal-600 text-white px-6 py-3 rounded-xl"
+        >
+          Consultar
+        </a>
+
+      </div>
+
+    </div>
+
+    {/* Neurobión */}
+
+    <div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
+
+      <img
+        src="/neurobion10000.png"
+        alt="Neurobión"
+        className="w-full h-96 object-cover"
+      />
+
+      <div className="p-6">
+
+        <h3 className="text-2xl font-bold">
+          Neurobión DC 10000
+        </h3>
+
+        <p className="text-gray-600 mt-3">
+          Producto original. Presentación sellada. Uso profesional.
+        </p>
+
+        <div className="mt-5">
+
+          <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+            OFERTA
+          </span>
+
+          <p className="text-gray-400 line-through text-lg mt-4">
+            Antes: S/100.00
+          </p>
+
+          <p className="text-3xl font-bold text-red-600">
+            Ahora: S/85.00
+          </p>
+
+        </div>
+
+        <a
+          href="https://wa.me/51952260788"
+          className="inline-block mt-6 bg-teal-600 text-white px-6 py-3 rounded-xl"
+        >
+          Comprar por WhatsApp
+        </a>
+
+        <a
+          href="/productos/neurobion-dc-10000"
+          className="inline-block mt-3 ml-3 border border-teal-600 text-teal-600 px-6 py-3 rounded-xl hover:bg-teal-600 hover:text-white transition"
+        >
+          Ver detalles
+        </a>
+
+      </div>
+
+    </div>
+
+    {/* Dolo Neurobión */}
+
+    <div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
+
+      <div className="w-full h-96 flex items-center justify-center bg-white overflow-hidden">
+
+        <img
+          src="/doloneurobion.png"
+          alt="Dolo Neurobión"
+          className="max-w-full max-h-full object-contain p-6 transition duration-300 hover:scale-105"
+        />
+
+      </div>
+
+      <div className="p-6">
+
+        <h3 className="text-2xl font-bold">
+          Dolo Neurobión
+        </h3>
+
+        <p className="text-gray-600 mt-3">
+          Complejo vitamínico con efecto analgésico. Producto original y de uso profesional.
+        </p>
+
+        <div className="mt-5">
+
+          <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+            OFERTA
+          </span>
+
+          <p className="text-gray-400 line-through text-lg mt-4">
+            Antes: S/110.00
+          </p>
+
+          <p className="text-3xl font-bold text-red-600">
+            Ahora: S/95.00
+          </p>
+
+        </div>
+
+        <a
+          href="https://wa.me/51952260788"
+          className="inline-block mt-6 bg-teal-600 text-white px-6 py-3 rounded-xl"
+        >
+          Comprar por WhatsApp
+        </a>
+
+        <a
+          href="/productos/dolo-neurobion"
+          className="inline-block mt-3 ml-3 border border-teal-600 text-teal-600 px-6 py-3 rounded-xl hover:bg-teal-600 hover:text-white transition"
+        >
+          Ver detalles
+        </a>
+
+      </div>
+
+    </div>
 
   </div>
 
-</div>
-
-
 </section>
-
 {/* FOOTER */}
 
 <footer className="bg-slate-900 text-white mt-20">
