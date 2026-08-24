@@ -276,7 +276,7 @@ export default function Home() {
     <img
       src="/tirzepatida-zphcd.png"
       alt="Tirzepatida ZPHCD 15 mg"
-      className="max-w-full max-h-full object-contain p-6"
+      className="w-full h-96 object-contain p-6"
     />
 
   </div>
@@ -325,7 +325,10 @@ export default function Home() {
 
 </div>
 
+
 </section>
+
+
 {/* FOOTER */}
 
 <footer className="bg-slate-900 text-white mt-20">
