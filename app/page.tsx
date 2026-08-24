@@ -269,7 +269,7 @@ export default function Home() {
   
 {/* Tirzepatida ZPHCD */}
 
-<div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
+<div className="bg-white rounded-2xl shadow-lg overflow-hidden border mt-10">
 
   <div className="w-full h-96 flex items-center justify-center bg-white overflow-hidden">
 
