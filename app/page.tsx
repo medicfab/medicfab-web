@@ -266,6 +266,64 @@ export default function Home() {
     </div>
 
   </div>
+  
+{/* Tirzepatida ZPHCD */}
+
+<div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
+
+  <div className="w-full h-96 flex items-center justify-center bg-white overflow-hidden">
+
+    <img
+      src="/tirzepatida-zphcd.png"
+      alt="Tirzepatida ZPHCD 15 mg"
+      className="max-w-full max-h-full object-contain p-6"
+    />
+
+  </div>
+
+  <div className="p-6">
+
+    <h3 className="text-2xl font-bold">
+      Tirzepatida ZPHCD 15 mg
+    </h3>
+
+    <p className="text-gray-600 mt-3">
+      Producto original. Presentación de 15 mg.
+    </p>
+
+    <div className="mt-5">
+
+      <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+        OFERTA
+      </span>
+
+      <p className="text-gray-400 line-through text-lg mt-4">
+        Antes: S/ 550.00
+      </p>
+
+      <p className="text-3xl font-bold text-red-600">
+        Ahora: S/ 490.00
+      </p>
+
+    </div>
+
+    <a
+      href="https://wa.me/51952260788"
+      className="inline-block mt-6 bg-teal-600 text-white px-6 py-3 rounded-xl"
+    >
+      Comprar por WhatsApp
+    </a>
+
+    <a
+      href="/productos/tirzepatida-zphcd"
+      className="inline-block mt-3 ml-3 border border-teal-600 text-teal-600 px-6 py-3 rounded-xl hover:bg-teal-600 hover:text-white transition"
+    >
+      Ver detalles
+    </a>
+
+  </div>
+
+</div>
 
 </section>
 {/* FOOTER */}
